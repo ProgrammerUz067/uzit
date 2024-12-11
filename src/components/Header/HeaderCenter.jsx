@@ -10,16 +10,16 @@ export default function HeaderCenter() {
     <div>
       {/* Header center */}
       <ul className="flex items-center">
-        <a href="#about">
+        <a href="#home">
           <li>{t("header.links1")}</li>
         </a>
-        <a href="#team">
+        <a href="#about">
           <li>{t("header.links2")}</li>
         </a>
-        <a href="#services">
+        <a href="#courses">
           <li>{t("header.links3")}</li>
         </a>
-        <a href="#projects">
+        <a href="#contacts">
           <li>{t("header.links4")}</li>
         </a>
       </ul>

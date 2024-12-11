@@ -12,14 +12,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: #262626;
+  background-color: #585858;
   z-index: 2;
-  
 
   .title {
     line-height: normal;
     margin-top: 25px;
-    font-size: 120px;
     display: flex;
     flex-direction: column;
     .mainTitle {
@@ -27,93 +25,29 @@
       margin-top: 80px;
     }
     color: white;
+    margin-top: 0px !important;
     font-family: "Swis721 Win95BT" sans-serif;
-    font-weight: bold;
-    span {
-      color: green;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    span:nth-child(1) {
+      color: #04fc47;
+      font-size: 47px;
+    }
+    .fz {
+      color: white;
     }
     p {
-      font-size: 87px;
+      font-size: 47px;
     }
   }
   .subtitle {
     margin-top: 25px;
     line-height: 41px;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
     color: #f2f2f2;
-  }
-}
-@media screen and (min-width: 2250px) {
-  .mainPage {
-    margin: auto;
-  }
-}
-@media screen and (max-width: 1152px) {
-  .mainPage {
-    .subtitle {
-      font-size: 30px;
-    }
-  }
-}
-@media screen and (max-width: 1100px) {
-  .mainPage {
-    .title {
-      margin-top: 0;
-      font-size: 100px;
-      p {
-        font-size: 70px;
-      }
-    }
-    .subtitle {
-      margin-top: 0;
-      font-size: 22px;
-    }
-  }
-}
-@media screen and (max-width: 1024px) {
-  .mainPage {
-    padding-left: 60px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .mainPage {
-    min-height: fit-content;
-    div {
-      canvas {
-        top: -15% !important;
-      }
-    }
-  }
-}
-@media screen and (max-width: 768px) {
-  .mainPage {
-    padding-top: 0;
-    .title {
-      font-size: 64px;
-      p {
-        font-size: 40px;
-      }
-    }
-    .subtitle {
-      font-size: 20px;
-    }
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .mainPage {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    .title {
-      font-size: 52px;
-      p{
-        font-size: 32px;
-      }
-    }
-    .subtitle {
-      font-size: 18px;
-    }
   }
 }
