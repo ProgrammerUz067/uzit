@@ -1,0 +1,16 @@
+.footer{
+  min-height: 164px; 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 390px) {
+  .footer{
+    h3{
+      font-size: 12px !important;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+@font-face {
+  font-family: 'Swis721 Win95BT"';
+  src: url('./font/swiss721bt_bold.ttf') format('ttf'),
+       url('./font/swiss721bt_bolditalic.ttf') format('ttf'),
+       url('./font/swiss721bt_italic.ttf') format('ttf'),
+       url('./font//swiss721bt_roman.ttf') format('ttf');
+  /* Дополнительные стили шрифта, если необходимо */
+}
+
+body{
+  background: #262626;
+  font-family: 'Swis721 Win95BT' sans-serif;
+  color: #F2F2F2;
+}

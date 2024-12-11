@@ -1,0 +1,66 @@
+.toggleBtn{
+  display: flex; 
+  justify-content: flex-end; 
+  display: none;
+  z-index: 999;
+
+}
+
+.burger{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.75em 1em 1.5em 2em; 
+  background: none; 
+  outline: none;
+  border: none;
+  width: 28px; 
+  height: 20px;
+  transition: all 250ms ease-out;
+  cursor: pointer;
+  z-index: 999;
+  &:before,
+  &:after{ 
+    content: ''; 
+    width: 40px;
+    height: 2px; 
+    position: absolute; 
+    background: white;
+    transition: all 250ms ease-out;
+ 
+  }
+
+  &:before{
+    transform: translateY(-3px); 
+
+  }
+  &:after{
+    transform: translateY(3px); 
+
+  }
+
+
+
+
+
+}
+
+.active.burger:before{ 
+  transform: translate(0) rotate(45deg); 
+
+
+}
+.active.burger:after{ 
+  transform: translate(0) rotate(-45deg); 
+  
+
+}
+
+
+
+@media screen and (max-width: 1024px){
+  .toggleBtn{
+    display: block;
+  }
+}  
+

@@ -1,0 +1,26 @@
+.btn-5 {
+  // width: 130px;
+
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  position: relative; 
+transition: ease-out 0.3s;
+
+ 
+ 
+  &:hover{
+    
+    background: #6b8c49;
+
+  }
+ 
+
+}
+
+@media (hover:hover){
+  .btn-5:hover{
+    background: #6b8c49;
+  }
+
+}

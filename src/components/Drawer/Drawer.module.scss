@@ -1,0 +1,116 @@
+.drawer{
+  width: 100%;
+  height: 100vh; 
+  position: absolute;
+  background: #262626;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-100%);
+  transition: all 300ms ease-out;
+  padding: 15px;
+  .popup {
+    width: fit-content;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    left: -10px;
+    top: 40px;
+    padding: 15px;
+    border: 1px solid #00ff42;
+    z-index: 10;
+    display: none;
+  }
+  
+  .drawerLinks{
+    width: 100%; 
+    height: 80%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    ul {
+      a {
+        li {
+          font-weight: 700;
+          font-size: 18px;
+          margin-left: 52px;
+          transition: 0.3s;
+  
+          &:hover {
+            color: #96d966;
+          }
+        }
+      }
+    }
+
+  }
+
+  .background-img{
+    position: absolute; 
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    opacity: 50%;
+    width: 300px;
+    height: 350px;
+    z-index: -1;
+  
+
+
+  }
+  .drawerSocial{
+    display: flex; 
+    align-items: center; 
+    height: fit-content; 
+    justify-content: center; 
+    gap: 25px; 
+    margin: auto;
+  }
+
+
+  .drawerSocial{
+    display: flex; 
+    width: 100%; 
+    align-items: center; 
+    height: fit-content; 
+    justify-content: center; 
+    gap: 25px; 
+    margin: 0 auto;
+    a{
+     
+      img{
+        width: 35px;
+        height: 35px;
+      }
+    
+     
+    }
+  }
+}
+.active{
+  transform: translateY(0%);
+}
+
+
+@media screen and (max-width: 1024px){
+  .drawer{
+    .popup{
+      display: block;
+    }
+    ul{
+      a{
+        li{
+          display: block;
+        }
+      }
+      img{
+        width: 35px;
+        height: 35px;
+      }
+    }
+
+  }
+
+}

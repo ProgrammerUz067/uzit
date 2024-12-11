@@ -1,0 +1,131 @@
+.faq {
+  min-height: 768px;
+  background: linear-gradient(360deg, #6b8c49 5%, #262626 100%), url("./question-man.png");
+  padding-bottom: 25px;
+
+  .faqWrapper {
+    width: 90%;
+    min-height: 768px;
+    margin: 0 auto;
+    background: url("/question-man.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 2250px) {
+  .faq {
+    max-width: 2250px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .faq {
+    .faqWrapper {
+      background-size: contain;
+      background-position: 110% 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .faqWrapper {
+    transition: background-size 3s ease-in-out background-position 3s ease-in-out;
+  }
+  .faq {
+    button {
+      width: 65%;
+      div {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .faq {
+    .faqWrapper {
+      background-position: 110% 70px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .faq {
+    h2{
+      font-size: 72px !important;
+    }
+    .faqWrapper {
+      background-position: 126% 73px;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .faq {
+    padding-bottom: 0;
+    h2{
+      text-align: center;
+      font-size: 64px !important;
+    }
+    button {
+      width: 100%;
+    }
+    .faqWrapper {
+      background-image: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .faq {
+    min-height: fit-content;
+    h2{
+      font-size: 54px !important;
+    }
+    .faqWrapper {
+      min-height: fit-content;
+      button {
+        div {
+          h3 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 712px) {
+  .faq {
+    .faqWrapper {
+      button {
+        svg    {
+          margin-top: 10px !important;
+        }
+        div {
+          h3 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px){
+  .faq {
+    .faqWrapper{
+      margin-top: 0px;
+      h2{
+        margin-top: 0px !important;
+      }
+    }
+    button {
+      div {
+        text-align: left;
+        font-size: 14px;
+      }
+    }
+  }
+}

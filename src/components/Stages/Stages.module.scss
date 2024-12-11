@@ -1,0 +1,231 @@
+.stages {
+  height: fit-content;
+  padding-bottom: 35px;
+  .stagesTitle {
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .stagesLineWrapper {
+    display: flex;
+    align-items: center;
+    width: 80%;
+
+    margin: auto;
+    margin-top: 80px;
+    .stagesCircle {
+      display: flex;
+      align-items: center;
+      width: 32px;
+      height: 32px;
+      background: #5dc792;
+      justify-content: center;
+      border-radius: 50%;
+      opacity: 0;
+      transition: opacity 1s ease, transform 1s ease;
+
+      .miniCircle {
+        width: 16px;
+        height: 16px;
+        background: #fff;
+        border-radius: 50%;
+      }
+    }
+    .stagesLine {
+      position: relative;
+      width: 0%;
+      height: 4px;
+      transition: 300ms;
+      background: #5dc792 !important;
+    }
+  }
+}
+
+@keyframes line-download {
+  0% {
+    width: 0%;
+    opacity: 100%;
+  }
+  100% {
+    width: 100%;
+    transition: 300ms;
+    opacity: 100%;
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+//  line animation
+.activeFirstLine {
+  animation-name: line-download;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  display: block;
+  opacity: 100%;
+}
+//  second line animation
+.activeSecondLine {
+  animation-name: line-download;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 1.5s;
+  opacity: 100%;
+  display: block;
+  background: #5dc792 !important;
+  animation-fill-mode: forwards;
+  /* Добавил стили для сохранения красного фона после завершения анимации */
+  width: 15%;
+  transition: none;
+}
+.activeThirdLine {
+  animation-name: line-download;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+  opacity: 100%;
+  display: block;
+  background: #5dc792 !important;
+  animation-fill-mode: forwards;
+  /* Добавил стили для сохранения красного фона после завершения анимации */
+  width: 15%;
+  transition: none;
+}
+.activeFourLine {
+  animation-name: line-download;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 4.5s;
+  opacity: 100%;
+  display: block;
+  background: #5dc792 !important;
+  animation-fill-mode: forwards;
+  /* Добавил стили для сохранения красного фона после завершения анимации */
+  width: 15%;
+  transition: none;
+}
+.activeFiveLine {
+  animation-name: line-download;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 6s;
+  opacity: 100%;
+  display: block;
+  background: #5dc792 !important;
+  animation-fill-mode: forwards;
+  /* Добавил стили для сохранения красного фона после завершения анимации */
+  width: 15%;
+  transition: none;
+}
+
+.activeCircle {
+  animation: appear 0.5s ease-in-out forwards;
+}
+.activeCircleSecond {
+  animation: appear 0.5s ease-in-out 1s forwards;
+}
+.activeCircleThird {
+  animation: appear 0.5s ease-in-out 2.5s forwards;
+}
+.activeCircleFour {
+  animation: appear 0.5s ease-in-out 4s forwards;
+}
+.activeCircleFive {
+  animation: appear 0.5s ease-in-out 5.5s forwards;
+}
+.activeCircleSix {
+  animation: appear 0.5s ease-in-out 7s forwards;
+}
+@media screen and (min-width: 2250px) {
+  .stages {
+    max-width: 2250px;
+    margin: auto;
+  }
+}
+// _stages_pfy9u_2
+@media screen and (max-width: 960px) {
+  .stages {
+    .stagesLineWrapper {
+      div {
+        h2 {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 864px) {
+  .stages {
+    .stagesTitle {
+      font-size: 64px;
+    }
+    .stagesLineWrapper {
+      width: 85%;
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .stages {
+    .stagesTitle {
+      font-size: 52px;
+    }
+    .stagesLineWrapper {
+      padding-left: 20px;
+      div {
+        h2 {
+          top: -24px;
+          left: -5px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .stages {
+    .stagesLineWrapper {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .stages {
+    .stagesTitle {
+      font-size: 44px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 490px) {
+
+  .stages {
+    .stagesTitle {
+      font-size: 28px;
+    }
+    div p {
+      margin-top: 20px !important;
+    }
+  }
+}
+    // font-size: 28px;
+
+
+@media screen and (max-width: 360px) {
+  .stages{
+    div p{
+      font-size: 18px;
+    }
+  }
+}

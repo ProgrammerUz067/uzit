@@ -1,0 +1,49 @@
+.programmer{
+  background-color: #262626; 
+  // padding: 50px;
+  .programmerWrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    width: 80%; 
+    grid-column-gap: 110px;
+    justify-items: center;
+    margin: 0% auto;
+    margin-top: 50px;
+    // gap: 30px;
+    padding-bottom: 30px;
+    transform-style: preserve-3d;
+    .programmerItem{
+      width: 400px;
+      height: 400px;
+      padding: 30px;
+      border: 2px solid #6b8c49;
+      margin-bottom: 25px;
+      transform-style: preserve-3d;
+      will-change: transform;
+      transition: transform 0.25s ease-out;
+      img{
+        width: 50px;
+        height: 50px;
+      }
+     
+    }
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .programmer{
+   
+
+    .programmerWrapper{
+  
+      .programmerItem{
+        width: 350px;
+        height: 400px;
+    
+      
+       
+      }
+    }
+  }
+
+}

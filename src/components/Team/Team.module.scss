@@ -1,0 +1,225 @@
+.team {
+  padding-bottom: 50px;
+  padding-top: 25px;
+  
+  h2 {
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .teamWrapper {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 135px;
+    padding-right: 30px;
+    .teamWrapperLeft {
+      p {
+        font-size: 30px;
+        font-weight: 700;
+        padding-bottom: 20px;
+        padding-top: 80px;
+      }
+    }
+    .teamWrapperRight {
+      position: relative;
+      width: 60%;
+      transition: 500ms;
+      overflow: hidden; 
+     
+
+      // &::after {
+      //   content: "";
+      //   width: 520px;
+      //   height: 629px;
+      //   background: #6B8C49;
+      //   position: absolute;
+      //   top: 50%;
+      //   left: 50%;
+      //   transform: translate(-50%, -50%);
+      //   z-index: -1;
+      //   transition: 500ms;
+      // }
+      img {
+        height: 500px;
+        max-width: 900px;
+        margin-top: 90px;
+        margin-left: 50%;
+        transform: translate(-50%);
+        z-index: 2;
+        //  margin-top: 50px;
+      }
+    }
+  }
+}
+
+
+
+.afterClass {
+  &::after {
+    content: "";
+    width: 520px;
+    height: 680px;
+    background: #6b8c49;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -145%);
+    z-index: -1;
+    transition: 500ms ease-out;
+    animation-name: show;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes show {
+  from {
+    transform: translate(-50%, -145%);
+    transition: 500ms ease-out;
+  }
+  to {
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (min-width: 2250px){
+  .team{
+    max-width: 2250px;
+    margin: auto;
+  }
+} 
+@media screen and (max-width: 1540px) {
+  .team {
+    .teamWrapper {
+      .teamWrapperRight {
+        img {
+          object-fit: contain;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  .team {
+    h2 {
+      font-size: 82px;
+    }
+    .teamWrapper {
+      .teamWrapperLeft {
+        p {
+          font-size: 28px;
+        }
+      }
+      .teamWrapperRight {
+        &::after {
+          width: 420px;
+          height: 540px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1120px) {
+  .team {
+    .teamWrapper {
+      .teamWrapperLeft {
+        p {
+          font-size: 26px;
+        }
+        &::after {
+          width: 380px;
+          height: 500px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .team {
+    .teamWrapper {
+      padding-left: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .team {
+    .teamWrapper {
+      .teamWrapperLeft {
+        p {
+          font-size: 18px;
+        }
+      }
+      .teamWrapperRight {
+        img {
+          margin-top: 0;
+        }
+        &::after {
+          width: 70%;
+          height: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .team {
+    h2{
+      font-size: 52px;
+    }
+    .teamWrapper {
+      flex-direction: column-reverse;
+      .teamWrapperLeft {
+        p {
+          white-space: normal !important;
+          padding-top: 0;
+        }
+        button{
+          width: 100% !important;
+        }
+      }
+      .teamWrapperRight{
+        width: 100%;
+        &::after {
+          width: 80%;
+          height: 90%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px){
+  .team {
+    .teamWrapper {
+      .teamWrapperLeft {
+        p {
+          font-size: 18px;
+        }
+      }
+      .teamWrapperRight {
+        img {
+          margin-top: 0;
+        }
+        &::after {
+          width: 70%;
+          height: 70%;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 490px) {
+  .team {
+    h2{
+      font-size: 42px;
+    }
+  }
+}
