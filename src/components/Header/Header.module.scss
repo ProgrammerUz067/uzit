@@ -15,8 +15,8 @@
   color: #f2f2f2;
   padding-left: 60px;
   padding-right: 67px;
-  position: fixed; 
-  width: 100%; 
+  position: fixed;
+  width: 100%;
   z-index: 3;
 
   ul {
@@ -90,8 +90,8 @@
     left: calc(50% - 0.5em);
     width: 1em;
     height: 1em;
-    transition: box-shadow var(--transDur) ease-in-out, opacity var(--transDur) ease-in-out,
-      transform var(--transDur) ease-in-out;
+    transition: box-shadow var(--transDur) ease-in-out,
+      opacity var(--transDur) ease-in-out, transform var(--transDur) ease-in-out;
     transform: scale(0.5);
   }
   .theme__icon-part ~ .theme__icon-part {
@@ -147,8 +147,8 @@
     height: 34px;
     -webkit-appearance: none;
     appearance: none;
-    transition: background-color var(--transDur) ease-in-out, box-shadow 0.15s ease-in-out,
-      transform var(--transDur) ease-in-out;
+    transition: background-color var(--transDur) ease-in-out,
+      box-shadow 0.15s ease-in-out, transform var(--transDur) ease-in-out;
   }
   .theme__toggle:before {
     background-color: hsl(48, 90%, 55%);
@@ -156,7 +156,8 @@
     content: "";
     width: 25px;
     height: 25px;
-    transition: background-color var(--transDur) ease-in-out, transform var(--transDur) ease-in-out;
+    transition: background-color var(--transDur) ease-in-out,
+      transform var(--transDur) ease-in-out;
   }
   .theme__toggle:focus {
     box-shadow: 0 0 0 0.125em var(--primary);
@@ -211,9 +212,6 @@
   .themeToggleWrap {
     margin: 0 0.75em;
   }
-
-
-  
 
   @supports selector(:focus-visible) {
     .theme__toggle:focus {
@@ -325,7 +323,7 @@
   }
 }
 
-.header-active{
+.header-active {
   backdrop-filter: blur(10px) !important;
   // display: none;
 }

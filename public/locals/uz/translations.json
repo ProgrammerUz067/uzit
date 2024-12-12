@@ -1,180 +1,148 @@
 {
-  "header" :{
-    "links1" : "Asosiy",
-    "links2" : "Biz haqimizda",
-    "links3" : "Kurslar",
-    "links4" : "Kontaktlar"
-
+  "header": {
+    "links1": "Asosiy",
+    "links2": "Biz haqimizda",
+    "links3": "Kurslar",
+    "links4": "Kontaktlar"
   },
-  "main" : {
-    "main-text" : "Oʻzbekistonda IT-sohasini rivojlantirish va yoshlar uchun jahon miqyosida imkoniyatlar yaratishni asosiy maqsad qilib qoʻygan xalqaro marketing va IT kompaniyasi.",
-    "button" : "Batafsil"
+  "main": {
+    "main-text": "Oʻzbekistonda IT-sohasini rivojlantirish va yoshlar uchun jahon miqyosida imkoniyatlar yaratishni asosiy maqsad qilib qoʻygan xalqaro marketing va IT kompaniyasi.",
+    "button": "Batafsil"
   },
-  "about" : {
-    "title": "Biz haqimizda", 
+  "about": {
+    "title": "Biz haqimizda",
     "subtitle": "100-dan ortiq IT kompaniyalarin \n bilan xamkorlik yo'lga qo'yilmoqda. \n Qo'shimcha sifatida UZIT Groupda xalqaro\n  Notijorat IT tashkilotlar, Fondlar \n va etuq universitetlar bilan xamkorlik\n qilish imkoniyati mavjud.Misol uchun,\n T-Hub (Microsoft va Hindiston \n hukumati tomonidan asos solingan), \nIT(Hindiston texnologik  instituti),\n Garvard Universiteti,Stenford  Universiteti,\n  MIT, Bill & Melinda Geyts fondi."
   },
-  "directors" : {
-    "title" : "Raqamli marketing",
-      "subtitle" : "Бу юртимиздаги ташкилотларнинг \n социал платформаларда \n ва интернет  тармокларида профилни \n ривожлантириб  халкаро ташкилотлар \n этиборини  жалб   килишда \n ердам берувчи   булим "
+  "directors": {
+    "title": "Raqamli marketing",
+    "subtitle": "Бу юртимиздаги ташкилотларнинг \n социал платформаларда \n ва интернет  тармокларида профилни \n ривожлантириб  халкаро ташкилотлар \n этиборини  жалб   килишда \n ердам берувчи   булим "
   },
-  "team" : {
-    "title" : "Bizni jamoa",
-    "subtitle" : "Jamoamiz - iste’dodli\n va vafot etgan mutaxassislar,\n innovatsiyalarga intilayotgan va\n IT sektorini O‘zbekistonda \nrivojlantirish maqsadida. \nBirgalikda bilim, tajribaga\n hamda jamoa energiyasiga \n asoslangan kelajakni yaratamiz.\nJamoa to‘g‘risida ko‘proq ma’lumot",
-    "button" : "Jamoa haqida"
-
+  "team": {
+    "title": "Bizni jamoa",
+    "subtitle": "Jamoamiz - iste’dodli\n va vafot etgan mutaxassislar,\n innovatsiyalarga intilayotgan va\n IT sektorini O‘zbekistonda \nrivojlantirish maqsadida. \nBirgalikda bilim, tajribaga\n hamda jamoa energiyasiga \n asoslangan kelajakni yaratamiz.\nJamoa to‘g‘risida ko‘proq ma’lumot",
+    "button": "Jamoa haqida"
   },
-  "goals" : {
-    "title" : "Maqsadlar",
+  "goals": {
+    "title": "Maqsadlar",
     "subtitle1": "Ijtimoiy tarmoqlarda tashkilotlar \n profillarini rivojlantirish, \n xalqaro investorlar va \nkompaniyalarni e’tiborni\n jalb qilish uchun",
     "subtitle2": "IT-imtihon markazi UZIT Groupda\n GRE, GMAT, ACCA,CFA, Microsoft, \n sertifikati Google, sertifikati \nFacebook, sertifikati Amazon sertifikati \n va boshqa sertifilatlarni taqdim etadi.\n Barcha imtihonlar jahon tashkilotlari \n bilan shartnoma asosida qonuniy\n amalga oshiriladi. ",
     "subtitle3": "IT-аутсорсинг bu xorijiy\nIT-tashkilotlari bilan xamkorlik \nasosida IT proektlarni Uzbekistonga\n jalb qilishva yoshlar IT soxasida xalqaro dasturlarniamalga oshirishda \nyordam beruvchi bo'lim.\nJahon IT bozori xozirgi kunda 4 trillion dollar deb baholangan.",
     "subtitle4": "Yoshlar uchun imkoniyatlar \n UZIT Group bilan ishlash,\n xalqaro loyihalarda ishtirok \n etish  va innovatsion \n texnologiyalardan foydalanishni\n  o'z ichiga oladi.\n O'zbekiston o'zining yoshlarining \ndunyo IT maydonida qobiliyatini \nnamoyish etish va ularning IT\n sohasiga qiziqishini  oshirishni \n maqsad qiladi."
   },
-  "services" : {
-    "title" : "Xizmatlari",
+  "services": {
+    "title": "Xizmatlari",
     "subtitle": "Hamkorlikning turli variantlarini taklif etadigan ikkilamli tariflarimiz bilan tanishing. Sizning byudjetingiz yoki loyihaning ko‘lamidan qat’i nazar, biz yuqori sifatli IT-qarorlar va raqamli marketing xizmatlarini taqdim etishga tayyormiz. Tariflarimiz turli ehtiyojlarga moslashtirilib, samarali hamkorlik va o‘zaro manfaatli hamkorlikni ta’minlaydi. Texnologiya dunyosidagi ishonchli sherigingiz bo‘lgan UZIT Group bilan rivojlaning.",
-    "tarrifs1" : [
+    "tarrifs1": [
       {
-        "title" : "Hamkor",
-        "services" : [ 
-          {"description": "SMM xizmatlari(Telegram, Youtube, Instagram,Facebook) "},
-          {"description": "Video va Foto yaratish"},
-          {"description": "Trendda bo'lish"},
-          {"description": "Raqamli marketing instruksiyasi"}, 
-          {"description": "Target reklama"},
-          {"description": "Yillik kontent (Rejani yaratish)"},
-          {"description": "Barcha postlar Uzbek, Rus tilida"}
-
-          
-
-        ] 
+        "title": "Hamkor",
+        "services": [
+          {
+            "description": "SMM xizmatlari(Telegram, Youtube, Instagram,Facebook) "
+          },
+          { "description": "Video va Foto yaratish" },
+          { "description": "Trendda bo'lish" },
+          { "description": "Raqamli marketing instruksiyasi" },
+          { "description": "Target reklama" },
+          { "description": "Yillik kontent (Rejani yaratish)" },
+          { "description": "Barcha postlar Uzbek, Rus tilida" }
+        ]
       }
-     
     ],
-    "tarrifs2" : [
+    "tarrifs2": [
       {
-        "title" : "Kumush Hamkor",
-        "services" : [ 
-          {"description": "Qo'shimcha Hamkor tarifi"},
-          {"description": "Kompaniya yuzi & Spikeri"},
-          {"description": "Search Engine Optimization"},
-          {"description": "Online Reputation Management"}, 
-          {"description": "B2B Marketing"},
-          {"description": "Social Media Community boshqarish"},
-          {"description": "Koll Markazi xizmatlari"},
-          {"description": "Kommentariya va shaxsiy xatlarga javob berish"}
-
-
-          
-
-        ] 
+        "title": "Kumush Hamkor",
+        "services": [
+          { "description": "Qo'shimcha Hamkor tarifi" },
+          { "description": "Kompaniya yuzi & Spikeri" },
+          { "description": "Search Engine Optimization" },
+          { "description": "Online Reputation Management" },
+          { "description": "B2B Marketing" },
+          { "description": "Social Media Community boshqarish" },
+          { "description": "Koll Markazi xizmatlari" },
+          { "description": "Kommentariya va shaxsiy xatlarga javob berish" }
+        ]
       }
-     
     ],
-    "tarrifs3" : [
+    "tarrifs3": [
       {
-        "title" : "Oltin Hamkor",
-        "services" : [ 
-          {"description": "Qo'shimcha Hamkor va Kumush tarifi"},
-          {"description": "Yillik kontent (Rejani yaratish)"},
-          {"description": "Link building"},
-          {"description": "E-commerce marketing"}, 
-          {"description": "Xalqaro tabirlar & Networking"},
-          {"description": "Influenserlar & Bloggerlar"},
-          {"description": "Original premium kontent"}
-      
-
-          
-
-        ] 
+        "title": "Oltin Hamkor",
+        "services": [
+          { "description": "Qo'shimcha Hamkor va Kumush tarifi" },
+          { "description": "Yillik kontent (Rejani yaratish)" },
+          { "description": "Link building" },
+          { "description": "E-commerce marketing" },
+          { "description": "Xalqaro tabirlar & Networking" },
+          { "description": "Influenserlar & Bloggerlar" },
+          { "description": "Original premium kontent" }
+        ]
       }
-     
     ]
   },
 
-  "programmer" : {
-    "mainTitle" : "Dasturchi xizmatlari",
-    "title1" : "Lendinglar",
-    "subtitle1" : "Qisqa va uzoq. Moslashuvchan, yuklash tezligi, mikro-animatsiyalar, semantika va SEO belgilari.",
-    "title2" : "Onlayn magazinlar va korporativ veb-saytlar",
-    "subtitle2" : "Interaktiv sahifalar, shakllar, savatlar. Foydalanuvchilar uchun mavjud interfeyslar.",
-    "title3" : "Veb-saytni qayta loyihalash",
-    "subtitle3" : "Mavjud veb-saytlarni qayta loyihalash, tuzatishlar kiritish, dizaynni yanada jozibador qilish va funksionallikni yaxshilash", 
-    "title4" : "Telegram bot yozish",
-    "subtitle4" : "Turli murakkablikdagi telegram botlarini yaratish", 
-    "title5" : "Administrator va boshqaruv paneli",
-    "subtitle5" : "Komponentlarning maksimal qayta ishlatilishi muhim bo'lgan ko'plab grafikalar va maydonlar mavjud.", 
-    "title6" : "CRM tizimi",
-    "subtitle6" : "Biznesni avtomatlashtirish uchun turli xil CRM tizimlarini yaratish."
-    
-    
+  "programmer": {
+    "mainTitle": "Dasturchi xizmatlari",
+    "title1": "Lendinglar",
+    "subtitle1": "Qisqa va uzoq. Moslashuvchan, yuklash tezligi, mikro-animatsiyalar, semantika va SEO belgilari.",
+    "title2": "Onlayn magazinlar va korporativ veb-saytlar",
+    "subtitle2": "Interaktiv sahifalar, shakllar, savatlar. Foydalanuvchilar uchun mavjud interfeyslar.",
+    "title3": "Veb-saytni qayta loyihalash",
+    "subtitle3": "Mavjud veb-saytlarni qayta loyihalash, tuzatishlar kiritish, dizaynni yanada jozibador qilish va funksionallikni yaxshilash",
+    "title4": "Telegram bot yozish",
+    "subtitle4": "Turli murakkablikdagi telegram botlarini yaratish",
+    "title5": "Administrator va boshqaruv paneli",
+    "subtitle5": "Komponentlarning maksimal qayta ishlatilishi muhim bo'lgan ko'plab grafikalar va maydonlar mavjud.",
+    "title6": "CRM tizimi",
+    "subtitle6": "Biznesni avtomatlashtirish uchun turli xil CRM tizimlarini yaratish."
   },
-  
-  
 
-
-  "stages" : {
-    "title": "Razrabotka bosqichlari", 
-    "stages1" : "Loyihalash",
-    "stages2" : "Dizayn",
-    "stages3" : "Verstka",
-    "stages4" : "Dasturlash",
-    "stages5" : "Testlash",
-    "stages6" : "Qo'llash",
-    "subtitle" : "Dasturiy mahsulotni ishlab chiqish murakkab va ko‘p bosqichli jarayondir, bu vazifani qo‘yish bilan boshlanadi. Tahlil etish bosqichida foydalanuvchilarning talablari belgilanadi, loyihalashtirish esa mahsulotning tuzilmasi va arxitekturasini ishlab chiqishni Shundan so‘ng ishlab chiqaruvchilar jamoasi kodni joriy etadi va xatolarni aniqlash va bartaraf etish uchun puxta test o‘tkazadi. Test muvaffaqiyatli yakunlangandan so‘ng mahsulot ish muhitiga joriy etilmoqda. Foydalanuvchilarni o‘qitish va texnik qo‘llab-quvvatlashni o‘z ichiga olgan qo‘llab-quvvatlash muhim bosqichdir. Barcha jarayonlar mijozlarning vazifa va ehtiyojlariga javob beradigan samarali va sifatli dasturiy mahsulot yaratishga qaratilgan"
-  }, 
-  "development" :  {
-    "title" : "Rivojlanish",
-    "description1" : "UZIT Group GRE, GMAT, ACCA, CFA kabi \nkoʻplab sertifikatlashtirish \n dasturlari va IT imtihonlarini, \n Microsoft, Google, Facebook,\n Amazon va  boshqalar sertifikatlarini \ntaklif etadi, bu esa axborot \n texnologiyalari sohasida malaka \noshirish uchun imkoniyatlar yaratadi.",
-    "description2" : "UZIT Group GRE, GMAT, ACCA, CFA kabi \nkoʻplab sertifikatlashtirish \n dasturlari va IT imtihonlarini, \n Microsoft, Google, Facebook,\n Amazon va  boshqalar sertifikatlarini \ntaklif etadi, bu esa axborot \n texnologiyalari sohasida malaka \noshirish uchun imkoniyatlar yaratadi.",
-
-
-
-    "button" : "Ro'yhatga yozilish",
-    "button2" : "Ekzamen haqida"
+  "stages": {
+    "title": "Razrabotka bosqichlari",
+    "stages1": "Loyihalash",
+    "stages2": "Dizayn",
+    "stages3": "Verstka",
+    "stages4": "Dasturlash",
+    "stages5": "Testlash",
+    "stages6": "Qo'llash",
+    "subtitle": "Dasturiy mahsulotni ishlab chiqish murakkab va ko‘p bosqichli jarayondir, bu vazifani qo‘yish bilan boshlanadi. Tahlil etish bosqichida foydalanuvchilarning talablari belgilanadi, loyihalashtirish esa mahsulotning tuzilmasi va arxitekturasini ishlab chiqishni Shundan so‘ng ishlab chiqaruvchilar jamoasi kodni joriy etadi va xatolarni aniqlash va bartaraf etish uchun puxta test o‘tkazadi. Test muvaffaqiyatli yakunlangandan so‘ng mahsulot ish muhitiga joriy etilmoqda. Foydalanuvchilarni o‘qitish va texnik qo‘llab-quvvatlashni o‘z ichiga olgan qo‘llab-quvvatlash muhim bosqichdir. Barcha jarayonlar mijozlarning vazifa va ehtiyojlariga javob beradigan samarali va sifatli dasturiy mahsulot yaratishga qaratilgan"
   },
-  "FAQ" :{
-    "title" : "FAQ",
-    "mainTitle1" : "Raqamli biznes marketingi nima\nva bu mening biznesim uchun nima uchun muhim?", 
-    "answer1" : "Raqamli marketing - bu mahsulot, xizmat yoki biznesingizni onlayn yoki internet orqali targ'ib qilish yoki reklama qilish.\n Biznes turiga, maqsadlariga yoki biznes hayot siklining qaysi bosqichi \n ekaniga qarab, harakatlar har xil bo'lishi mumkin. Maqsadlaringizni tushunadigan va \n keng qamrovli marketingni qanday yaratishni biladigan marketing jamoasi bilan ishlash muhimdir. \n  eng daromadli kanallarni aniqlash strategiyasi.",
-    "mainTitle2" : "UZIT Group bilan biznesimni qanday boshlashim mumkin?", 
-    "answer2" : "1.Ekranning yuqori qismidagi “Biz bilan bog‘laning” tugmasini bosing va onlayn shakl orqali bizga xabar yuboring.\n2.Bizga uzitgroup@gmail.com elektron pochtasiga xabarni yuboring.\n3.Bizga +998(33)233-80-80 raqamiga qo‘ng‘iroq qiling. \nUZIT Group bilan bog'lanish sizning vaqtingizga arziydi. Hech bo'lmaganda, siz \n tajribali mutaxassislarimiz bilan gaplasha olasiz va kompaniyangizning marketing imkoniyatlari haqida \n va raqamli marketing va reklama xizmatlaridan qanday foyda olishingiz mumkinligi haqida tushunchaga ega bo'lasiz.",
-    "mainTitle3" : "UZIT Group qanday kontent marketingini taklif qiladi?", 
-    "answer3" : "UZIT Group kontent marketingining xar-xil turlarini taklif etadi, shu jumladan,blog postlarini yozish,\n mehmonlar blogini yozish, maqola yozish, SEO kontentni yozish, video yaratish,\n elektron pochta kompaniyalari va boshqalar.",
-    "mainTitle4" : "Sizda individual xizmatlarga buyurtma berish mumkinmi?", 
-    "answer4" : "Ha. Bizda barcha turdagi xizmatlarga alohida buyurtma berishingiz mumkin. Lekin faqat bizni xizmatlarni.",
-    "mainTitle5" : "Klient nimani taqdim etishi kerak?", 
-    "answer5" : "Tanlangan xizmatlarga qarab. Mijoz to'ldirilgan qisqacha ma'lumot,\n logotip (agar mavjud bo'lsa), aloqa raqamlari va elektron pochta manzilini taqdim etishi kerak."
+  "development": {
+    "title": "Rivojlanish",
+    "description1": "UZIT Group GRE, GMAT, ACCA, CFA kabi \nkoʻplab sertifikatlashtirish \n dasturlari va IT imtihonlarini, \n Microsoft, Google, Facebook,\n Amazon va  boshqalar sertifikatlarini \ntaklif etadi, bu esa axborot \n texnologiyalari sohasida malaka \noshirish uchun imkoniyatlar yaratadi.",
+    "description2": "UZIT Group GRE, GMAT, ACCA, CFA kabi \nkoʻplab sertifikatlashtirish \n dasturlari va IT imtihonlarini, \n Microsoft, Google, Facebook,\n Amazon va  boshqalar sertifikatlarini \ntaklif etadi, bu esa axborot \n texnologiyalari sohasida malaka \noshirish uchun imkoniyatlar yaratadi.",
+
+    "button": "Ro'yhatga yozilish",
+    "button2": "Ekzamen haqida"
   },
-  "questions" : {
-    "title" : "Savollar?",
+  "FAQ": {
+    "title": "FAQ",
+    "mainTitle1": "Raqamli biznes marketingi nima\nva bu mening biznesim uchun nima uchun muhim?",
+    "answer1": "Raqamli marketing - bu mahsulot, xizmat yoki biznesingizni onlayn yoki internet orqali targ'ib qilish yoki reklama qilish.\n Biznes turiga, maqsadlariga yoki biznes hayot siklining qaysi bosqichi \n ekaniga qarab, harakatlar har xil bo'lishi mumkin. Maqsadlaringizni tushunadigan va \n keng qamrovli marketingni qanday yaratishni biladigan marketing jamoasi bilan ishlash muhimdir. \n  eng daromadli kanallarni aniqlash strategiyasi.",
+    "mainTitle2": "UZIT Group bilan biznesimni qanday boshlashim mumkin?",
+    "answer2": "1.Ekranning yuqori qismidagi “Biz bilan bog‘laning” tugmasini bosing va onlayn shakl orqali bizga xabar yuboring.\n2.Bizga uzitgroup@gmail.com elektron pochtasiga xabarni yuboring.\n3.Bizga +998(33)233-80-80 raqamiga qo‘ng‘iroq qiling. \nUZIT Group bilan bog'lanish sizning vaqtingizga arziydi. Hech bo'lmaganda, siz \n tajribali mutaxassislarimiz bilan gaplasha olasiz va kompaniyangizning marketing imkoniyatlari haqida \n va raqamli marketing va reklama xizmatlaridan qanday foyda olishingiz mumkinligi haqida tushunchaga ega bo'lasiz.",
+    "mainTitle3": "UZIT Group qanday kontent marketingini taklif qiladi?",
+    "answer3": "UZIT Group kontent marketingining xar-xil turlarini taklif etadi, shu jumladan,blog postlarini yozish,\n mehmonlar blogini yozish, maqola yozish, SEO kontentni yozish, video yaratish,\n elektron pochta kompaniyalari va boshqalar.",
+    "mainTitle4": "Sizda individual xizmatlarga buyurtma berish mumkinmi?",
+    "answer4": "Ha. Bizda barcha turdagi xizmatlarga alohida buyurtma berishingiz mumkin. Lekin faqat bizni xizmatlarni.",
+    "mainTitle5": "Klient nimani taqdim etishi kerak?",
+    "answer5": "Tanlangan xizmatlarga qarab. Mijoz to'ldirilgan qisqacha ma'lumot,\n logotip (agar mavjud bo'lsa), aloqa raqamlari va elektron pochta manzilini taqdim etishi kerak."
+  },
+  "questions": {
+    "title": "Savollar?",
     "form1": "Ismingiz?",
     "form2": "Nomeringiz",
-    "form3" : "Sizni savolingiz", 
-    "button" : "Yuborish", 
-    "subtitle" : "Biz qisqa vaqt ichida siz bilan bog'lanamiz. Telegram botimizda ham savollar berishingiz mumkin",
-    "contacts" : {
-      "title" : "Bizning kontaktlarimiz",
-      "numbers" : "Bizning nomerlarimiz",
-      "email" : "Pochta", 
-      "adress" : "Adres", 
-      "location" : "Yetib borish",
-      "toGet" : "orqali biz bilan bog'lanishingiz mumkin"
+    "form3": "Sizni savolingiz",
+    "button": "Yuborish",
+    "subtitle": "Biz qisqa vaqt ichida siz bilan bog'lanamiz. Telegram botimizda ham savollar berishingiz mumkin",
+    "contacts": {
+      "title": "Bizning kontaktlarimiz",
+      "numbers": "Bizning nomerlarimiz",
+      "email": "Pochta",
+      "adress": "Adres",
+      "location": "Yetib borish",
+      "toGet": "orqali biz bilan bog'lanishingiz mumkin"
     }
-
-  
-
   },
-  "rights" :{
-    "text" : "barcha huquqlar himoyalangan"
+  "rights": {
+    "text": "barcha huquqlar himoyalangan"
   }
-
-    
-
-  
-  
-
-  
-  
 }

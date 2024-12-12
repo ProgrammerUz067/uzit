@@ -35,7 +35,7 @@ export default function MainPage() {
             {" "}
             <div className={style.title}>
               <p className="mt-[150px]">
-                <span className="c">{t("main.main-text1")}</span> {" "}
+                <span className="c">{t("main.main-text1")}</span>{" "}
                 <span className="fz">{t("main.main-text")}</span>
               </p>
             </div>
