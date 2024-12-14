@@ -5,146 +5,93 @@
     "links3": "Courses",
     "links4": "Contacts"
   },
+
   "main": {
-    "main-text": "An international marketing and IT company that has the main goal of developing the IT sphere in Uzbekistan and creating opportunities for young people on the world stage.",
-    "button": "More"
+    "main-text": "From mental arithmetic to creating IT solutions",
+    "main-text1": "School of knowledge for everyone:",
+    "main-text2": "**The brain is in shape, skills are at their best**"
   },
+
   "about": {
     "title": "About us",
     "subtitle": "International cooperation encompasses \n more than 100 IT companies, as well as partnerships with\ninternational notorial IT\n organizations, foundations and universities,\nsuch as T-Hub (founded by Microsoft\nand the Government of India), IT (Institute of\nIndia's technology), Harvard\nUniversity, Stanford University,\nMIT, Bill & Melinda Gates Foundation."
   },
-  "directors": {
-    "title": "Digital marketing",
-    "subtitle": "This is a section that helps \n organizations in our country \n attract the attention of international \n organizations by developing their \n profile  on the Internet on \n social platforms"
-  },
-  "team": {
-    "title": "Our team",
-    "subtitle": "Our team is talented\n and dedicated professionals,\n eager to innovate and\n development of the IT sector in\nUzbekistan. Together we\n creating the future,\n knowledge-based, experiential\n and collective energy.\nLearn more about people,\nmaking UZIT Group\nparticular",
-    "button": "About Team"
-  },
-  "goals": {
-    "title": "Goals",
-    "subtitle1": "Develop profiles\n organizations on social\n platforms and online for\n sensitization\n  international\n investors and companies",
-    "subtitle2": "IT-examination center UZIT\nGroup offers testing for \nGRE, GMAT, ACCA certifications,\nCFA, as well as certifications from Microsoft, Google\nFacebook, Amazonand others. The examinations are conducted in partnership with world organizations on the basis of relevant agreements.",
-    "subtitle3": "IT outsourcing is focused on\nattracting foreign IT\n-organizations for the implementation of projects in Uzbekistan and IT  support for young people.Uzbekistan, using current\nmarket opportunities, seeks to\nto develop their IT field,\nto develop its $4 trillion IT industry.\ndollars.",
-    "subtitle4": "Opportunities for young people\ninclude working with\nby experienced UZIT specialists\nGroup, participation in international \n projects and utilization\n innovation technologies.\nUzbekistan seeks to\nDemonstrate the ability of their youth to\nthe global IT arena and \nstimulate their interest in \nIT-sphere."
-  },
-  "services": {
-    "title": "Services",
-    "subtitle": "Check out our flexible rates offering a variety of partnership options. Regardless of your budget or project size, we are ready to provide high-quality IT solutions and digital marketing services. Our tariffs are customized for different needs, ensuring effective communication and mutually beneficial cooperation. Develop with UZIT Group - your reliable partner in the world of technology.",
-    "tarrifs1": [
-      {
-        "title": "Xamkor",
-        "services": [
-          {
-            "description": "SMM services(Telegram, Youtube, Instagram,Facebook) "
-          },
-          { "description": "Сreating photos and videos" },
-          { "description": "Be in trend" },
-          { "description": "Digital Marketing" },
-          { "description": "Target advertising" },
-          { "description": "Annual Content (Create a Plan)" },
-          { "description": "Multilingual content" }
-        ]
-      }
-    ],
-    "tarrifs2": [
-      {
-        "title": "Kumush Xamkor",
-        "services": [
-          { "description": "Hamkor tariff included" },
-          { "description": "The face of the company" },
-          { "description": "Search Engine Optimization" },
-          { "description": "Online Reputation Management" },
-          { "description": "B2B Marketing" },
-          { "description": "Social Media Community control" },
-          { "description": "Call center services" },
-          { "description": "Replies to comments personal letters" }
-        ]
-      }
-    ],
-    "tarrifs3": [
-      {
-        "title": "Oltin Hamkor",
-        "services": [
-          { "description": "Hamkor and Hamkor kumush included" },
-          { "description": "Annual plan (Creating plan)" },
-          { "description": "Link building" },
-          { "description": "E-commerce marketing" },
-          { "description": "International events & Networking" },
-          { "description": "Influencers & Bloggers" },
-          { "description": "Original premium content" }
-        ]
-      }
-    ]
-  },
-  "programmer": {
-    "mainTitle": "Programmer services",
-    "title1": "Landings",
-    "subtitle1": "Short and long. Adaptive, loading speed, micro-animations, semantics and SEO markup.",
-    "title2": "E-commerce stores and corporate websites",
-    "subtitle2": "Pages with interactive, forms, baskets. Available interfaces for users.",
-    "title3": "Website redesign",
-    "subtitle3": "Redesigning existing websites, making adjustments, making the design more attractive and improving functionality",
-    "title4": "Telegram bot development",
-    "subtitle4": "Creation of telegram bots of varying complexity",
-    "title5": "Admin Dashboards",
-    "subtitle5": "There are many graphs and fields where maximum reuse of components is important.",
-    "title6": "CRM systems",
-    "subtitle6": "Creation of various CRM systems for business automation."
-  },
-  "stages": {
-    "title": "Development Stages",
-    "stages1": "Projecting",
-    "stages2": "Design",
-    "stages3": "Layout",
-    "stages4": "Programming",
-    "stages5": "Testing",
-    "stages6": "Supporting",
-    "subtitle": "Software product development is a complex and multi-stage process that starts with the problem statement. At the analysis stage, user requirements are defined, and design includes the development of the product structure and architecture. The development team then implements the code and performs rigorous testing to identify and fix bugs. After successful completion of testing, the product is implemented into the working environment. An important step is maintenance, which includes training users and providing technical support. The whole process is aimed at creating an efficient and high-quality software product that meets the tasks and needs of customers"
-  },
-  "development": {
-    "title": "Development",
-    "description1": "UZIT Group offers numerous \n certification programs and IT- \n exams, such as GRE, GMAT, ACCA, \n CFA, certificates from Microsoft, Google,\n Facebook, Amazon and others, creating \n opportunities to develop skills in\ninformation technology fields",
-    "description2": "UZIT Group offers numerous \n certification programs and IT- \n exams, such as GRE, GMAT, ACCA, \n CFA, certificates from Microsoft, Google,\n Facebook, Amazon and others, creating \n opportunities to develop skills in\ninformation technology fields",
 
-    "button": "Sign up",
-    "button2": "About exams"
-  },
-  "FAQ": {
-    "title": "FAQ",
-    "mainTitle1": "What is digital business marketing\nand why is it important for my business?",
-    "answer1": "Digital marketing is the promotion or advertising of your product, service or business online or through the internet. \n Depending on the type of business, goals, or what stage \n the business is in the life cycle, efforts may vary.\n It is important to work with a marketing team that understands your goals and knows \n how to create a comprehensive strategy to be able to \n identify the most profitable channels.",
-    "mainTitle2": "How can I start my business with UZIT Group?",
-    "answer2": "1.Click the “Contact Us” button at the top of the screen and send us a message via the online form.\n2.Email us at uzitgroup@gmail.com.\n3.Call us at +998(33)233 -80-80. \nContacting UZIT Group will be worth your time. At a minimum, you will be able to speak \n with our experienced professionals and gain insight into your company's marketing capabilities \n and how you can benefit from digital marketing and advertising services.",
-    "mainTitle3": "What type of content marketing does UZIT Group offer?",
-    "answer3": "UZIT Group offers all different types of content marketing including \n but not limited to: blog post writing, guest blog writing,\n article writing, SEO content writing, video creation, email campaigns and much, much more.",
-    "mainTitle4": "Is it possible to order individual services from us?",
-    "answer4": "Yes. You can order all types of services from us separately. But only what we do.",
-    "mainTitle5": "What must the customer provide?",
-    "answer5": "Depending on the selected services. The customer must provide a completed brief,\n logo (if available), contact numbers and email."
-  },
-  "questions": {
-    "title": "Any questions?",
-    "form1": "your name",
-    "form2": "number",
-    "form3": "your questions",
-    "button": "Sign up",
-    "subtitle": "We will definitely contact you within a certain time. You can also ask questions in our telegram bot",
-    "contacts": {
-      "title": "Our contacts",
-      "numbers": "Our numbers",
-      "email": "Our email adresses",
-      "adress": "Adress",
-      "location": "Getting there",
-      "toGet": "we can be reached through"
+  "teachers": {
+    "title": "Our teachers",
+    "teacher1": {
+      "name": "Shakhnoza",
+      "surname": "",
+      "skill": "English teacher"
     },
-    "rights": {
-      "text": "all rights reserved"
+
+    "teacher2": {
+      "name": "Roma",
+      "surname": "Sadikov",
+      "skill": "Front-end teacher in rus, Computer literacy teacher in rus"
+    },
+
+    "teacher3": {
+      "name": "Diyor",
+      "surname": "Khasanov",
+      "skill": "Front-end teacher in uzb, Computer literacy teacher in uzb"
+    },
+
+    "teacher4": {
+      "name": "Ramiz",
+      "surname": "Ziyodullayev",
+      "skill": "Back-end teacher in uzb, Computer literacy teacher in uzb"
+    },
+
+    "teacher5": {
+      "name": "Aziz",
+      "surname": "",
+      "skill": "Math teacher"
+    },
+
+    "teacher6": {
+      "name": "Sabina",
+      "surname": "",
+      "skill": "Russian language teacher"
     }
   },
 
-  "rights": {
-    "text": "all rights reserved"
+  "course": {
+    "pc": {
+      "title": "Computer literacy",
+      "duration": "1 month",
+      "price": "",
+      "description": ""
+    },
+    "front": {
+      "title": "Front-end development",
+      "duration": "7 month",
+      "price": "",
+      "description": ""
+    },
+    "back": {
+      "title": "Back-end development",
+      "duration": "7 month",
+      "price": "",
+      "description": ""
+    },
+    "english": {
+      "title": "English language",
+      "duration": " month",
+      "price": "",
+      "description": ""
+    },
+    "math": {
+      "title": "Math",
+      "duration": " month",
+      "price": "",
+      "description": ""
+    },
+    "rus": {
+      "title": "Russian language",
+      "duration": " month",
+      "price": "",
+      "description": ""
+    }
   }
 }
