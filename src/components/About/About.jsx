@@ -1,7 +1,8 @@
-import React from 'react';
-import style from './About.module.scss';
-import { useTranslation } from 'react-i18next';
-import Reveal from '../Reveal/Reveal';
+import React from "react";
+import style from "./About.module.scss";
+import { useTranslation } from "react-i18next";
+import Reveal from "../Reveal/Reveal";
+import about from "../../../public/about.png";
 // import gsap from 'gsap';
 // import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -19,32 +20,16 @@ export default function About() {
   // }, []);
 
   return (
-    <section id='about' className={style.about}>
-      <div className={style.aboutLeft}>
-        <div className="w-[50%]">
-          <img data-aos="fade-right" src="./about-left.png" alt="about-left" />
+    <section id="about" className={style.about1}>
+      <div className={style.about}>
+        <div>
+          <img src={about} alt="about" />
         </div>
 
         <div>
-          <Reveal>
-            <h2>{t('about.title')}</h2>
-            <p style={{ whiteSpace: 'pre-line' }}>{t('about.subtitle')}</p>
-          </Reveal>
+          <h1 className={style.title}>{t("about.title")}</h1>
+          <p>{t("about.subtitle")}</p>
         </div>
-      </div>
-
-      <div className={style.aboutRight}>
-        <div>
-          <Reveal>
-            <h2>{t('directors.title')}</h2>
-            <p style={{ whiteSpace: 'pre-line' }}>{t('directors.subtitle')}</p>
-          </Reveal>
-        </div>
-        <img
-          data-aos="fade-left"
-          src="./about-right.png"
-          alt="картинка про нас. но видимо она не прогрузилась. соре"
-        />
       </div>
     </section>
   );
